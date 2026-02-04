@@ -37,7 +37,7 @@ const removefromStack = (indexToRemove) => {
       <h1>Burger Stacker</h1>
       <section>
       
-       <IngredientList ingredients={availableIngredients} onAdd={addIngredient} />
+       <IngredientList availableIngredients ={availableIngredients} onAdd={addIngredient} />
       </section>
       <section>
         <BurgerStack ingredients={stack} onRemove={removefromStack} />
